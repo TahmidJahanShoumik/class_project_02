@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>Information</title>
+  </head>
+  <body>
+    <!-- FORM  -->
+    <h4>information form</h4>
+
+    <form action="/controller.html">
+      <label for="first_name">First Name : </label>
+      <input required id="first_name" name="first_name" type="text" placeholder="Enter your first name">
+
+      <br> <br>
+
+      <label for="last_name">Last Name :</label>
+      <input id="last_name" type="text" placeholder="Enter your last name" />
+
+      <br> <br>
+
+      <label for="email">Email : </label>
+      <input id="email" type="email" placeholder="Enter your Email" />
+
+      <br> <br>
+
+      <label for="phone_number">Phone Number :</label>
+      <input id="phone_number" type="number" placeholder="Phone number" />
+
+      <br> <br>
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Password" />
+
+      <br> <br>
+
+      <label for="confirm_password">Confirm Password :</label>
+      <input id="confirm_password" type="password" placeholder="Confirm Password" />
+
+      <br> <br>
+
+      <p>Select Gender: </p>
+
+      <input name="gender" type="radio" id="man" />
+      <label for="man">Man</label>
+
+      <input name="gender" type="radio" id="women" />
+      <label for="women">Women</label>
+
+      <input name="others" type="radio" id="others" />
+      <label for="others">Others</label>
+      
+      <br> <br>
+
+      <select name="" id="">
+        <option disabled selected hidden>--Select your division--</option>
+        <option >Chattogram</option>
+        <option >Barishal</option>
+        <option >Dhaka</option>
+        <option >Khulna</option>
+        <option >Rajshahi</option>
+        <option >Rangpur</option>
+        <option >Mymensingh</option>
+        <option >Sylhet</option>
+      </select>
+
+      <br> <br>
+
+      <label for="img">
+        <img width="100" src="icon/imagefile.jpg" alt="" />
+      </label>
+      <input hidden id="img" type="file" accept=".png,.jpg" />
+
+      <br> <br>
+
+      <label for="birth_card">Select your birth date: </label>
+      <input type="date"/>
+
+      <br> <br>
+
+      <label for="birth">Select your birth date and time: </label>
+      <input type="datetime-local"/>
+
+      <br> <br>
+
+      <label for="time">Time</label>
+      <input type="time"/>
+
+      <br> <br>
+
+      <label for="clr">Color:</label>
+      <input type="color" name="" id=""/>
+
+      <br> <br>
+
+      <label for="details">Details</label>
+      
+      <br>
+
+      <textarea
+        placeholder="Details"
+        rows="10"
+        cols="30"
+        name=""
+        id=""
+      ></textarea>
+
+      <br> <br>
+
+      <button type="submit" style="color: red;" >SUBMIT</button>
+    </form>
+  </body>
+</html>
